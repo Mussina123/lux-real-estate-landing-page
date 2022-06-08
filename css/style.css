@@ -48,7 +48,7 @@ body {
  } 
 
  .mainLeft {
-     border: 2px solid black;
+     /* border: 2px solid black; */
      width: 50%;
      padding: 0 0 0 5% ;
      
@@ -174,22 +174,22 @@ left: 52%;
       center top/cover;
   }
   .slide:nth-child(2) {
-    background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat
+    background: url('https://img.gtsstatic.net/reno/imagereader.aspx?idlisting=170-l-77837-f1170630664&imageurl=http%3A%2F%2Flh.rdcpix.com%2F2ae3f15db39b7f1ab573f6328d03df90l-f867048285r.jpg&option=n&w=1600&fallbackimageurl=https%3A%2F%2Fstatic-christiesrealestate-cms-production.gtsstatic.net%2Fresources%2F_responsive%2Fimages%2Fcommon%2Fnophoto%2Fdefault.jpg') no-repeat
       center top/cover;
   }
   .slide:nth-child(3) {
-    background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+    background: url('http://cdn.home-designing.com/wp-content/uploads/2020/04/luxury-house-with-pool-design.jpg') no-repeat
       center top/cover;
   }
   .slide:nth-child(4) {
-    background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+    background: url('http://cdn.home-designing.com/wp-content/uploads/2020/04/exterior-lighting-1.jpg') no-repeat
       center top/cover;
   }
   .slide:nth-child(5) {
-    background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+    background: url('https://i.insider.com/5d30c1e361de61077c2398ba?width=1300&format=jpeg&auto=webp') no-repeat
       center top/cover;
   } 
   .slide:nth-child(6)  {
-    background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+    background: url('http://cdn.home-designing.com/wp-content/uploads/2020/04/luxury-house-with-green-roof.jpg') no-repeat
       center center/cover;
   }
