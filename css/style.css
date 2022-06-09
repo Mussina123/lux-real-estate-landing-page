@@ -124,7 +124,7 @@ p {
 
 .slide .content {
     position: absolute;
-    bottom: 70px; 
+    bottom: 50px; 
     left: -400;
     opacity: 0;
     width: 200px;

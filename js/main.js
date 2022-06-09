@@ -22,7 +22,7 @@ const nextSlide = () => {
     // go back to start and add current 
     slides[0].classList.add('current');
     }
-    setTimeout(() => current.classList.remove('current'), 300);
+    setTimeout(() => current.classList.remove('current'), 500);
 }
 
 const prevSlide = () => {
@@ -40,7 +40,7 @@ const prevSlide = () => {
     // Add current to last slide 
     slides[slides.length - 1].classList.add('current');
     }
-    setTimeout(() => current.classList.remove('current'), 300);
+    setTimeout(() => current.classList.remove('current'), 500);
 }
 
 // Button Events 
@@ -67,3 +67,26 @@ if(auto){
     // run next slide at speicific time 
     slideInterval = setInterval(nextSlide, intervalTime);
 }
+
+
+// Left side counter for revenue & customer satisfaction // 
+
+const counters = document.querySelectorAll('.counter');
+const speed = 10000; 
+
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText; 
+
+        const increment = target / speed; 
+
+       if (count < target){
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 1);
+       }else {
+           count.innerText = target
+       }
+    }
+    updateCount();
+});
