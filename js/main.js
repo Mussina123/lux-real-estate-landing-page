@@ -72,7 +72,7 @@ if(auto){
 // Left side counter for revenue & customer satisfaction // 
 
 const counters = document.querySelectorAll('.counter');
-const speed = 10000; 
+const speed = 1000000; 
 
 counters.forEach(counter => {
     const updateCount = () => {
