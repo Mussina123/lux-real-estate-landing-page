@@ -10,6 +10,7 @@
   
 body {
     margin: 0;
+    overflow-y: hidden;
 }
 
   /* Clear fix hack */
@@ -26,11 +27,15 @@ body {
       display: flex;
       /* justify-content: space-between; */
       list-style: none;
+      align-items: center;
+      margin: 0;
+      height: 100px;
   }
 
   .nav li {
       width: 70%;
       padding-top: 1%;
+      align-items: center;
   }
 
   .logo {
@@ -105,6 +110,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 89vh; 
+    
 
 }
 
@@ -235,4 +241,12 @@ left: 52%;
 
   .social {
       padding: 0 2%;
+  }
+
+  .logo-img {
+      width: 125px;
+      height: 125px;
+      position: relative;
+      left: 10px;
+    
   }
