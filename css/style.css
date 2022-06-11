@@ -97,10 +97,13 @@ body {
     font-size: 1rem;
 }
 
-p {
+.paraLeft {
     font-style: italic;
 }
 
+p {
+    font-size: 1.1rem;
+}
 
 
 /* Slider on Right Side of Page */
@@ -229,6 +232,7 @@ left: 52%;
 
   .topLeft h1 {
       margin-bottom: 0;
+ 
   }
 
   .content i {
