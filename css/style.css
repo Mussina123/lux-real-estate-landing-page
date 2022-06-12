@@ -65,6 +65,7 @@ body {
      height: 89vh;
      /* text-align: start; */
      line-height: 1.5;
+     text-align: center;
  }
 
  h1 {
@@ -98,7 +99,8 @@ body {
 }
 
 .paraLeft {
-    font-style: italic;
+    /* font-style: italic; */
+    font-size: 1.3rem;
 }
 
 p {
@@ -157,14 +159,14 @@ p {
 position: absolute;
 top: 50%;
 right: 20px;
-/* display: none; */
+display: none;
 }
 
 #prev {
 position: absolute;
 top: 50%;
 left: 52%;
-/* display: none; */
+display: none;
 }
 
 .buttons button {
@@ -226,7 +228,7 @@ left: 52%;
   }
 
   .topLeft {
-      padding-left: 10%;
+      padding-left: 5%;
       margin-bottom: 5%;
   }
 
@@ -263,4 +265,17 @@ left: 52%;
 
  .slide h1 {
      line-height: 1.05;
+ }
+
+ .social {
+     margin-top: 15px;
+ }
+
+ .social:hover {
+     font-size: larger;
+     cursor: pointer;
+ }
+
+ .social-logos {
+    margin: 0 0 0 7%;
  }
